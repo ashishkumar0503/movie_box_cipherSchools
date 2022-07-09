@@ -1,0 +1,23 @@
+
+.login_button_container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.login_button_container > button{
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 400px;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+
+}
+.login_button_container > button:hover{
+    background-color: rgb(225, 95, 95);
+    font-weight: 700;
+}
