@@ -38,7 +38,9 @@ function Navbar({showSignInButton, logOut, show}){
 
     return(
 
-        <div className="navbar_container">
+        <div className={`navbar_container ${show && "navbar_color"} ${
+            dark && "navbar_dark"
+          }`}>
             <img
                 className="navbar_logo"
                 // src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBT3N2hYRiW7Wn2jxZsOz_wNaHuhISSgzBag&usqp=CAU"
@@ -60,7 +62,7 @@ function Navbar({showSignInButton, logOut, show}){
             {logOut && (
 
                 <>
-                    <h4 className="user_name"> {user && `Hi, ${user.name}`}</h4>
+                    <h4 className="user_name"> {user && `Hi, ${user.name} `}</h4>
                     <p onClick={() => logout({
                      returnTo: window.location.origin,
                     })

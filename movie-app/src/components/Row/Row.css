@@ -11,7 +11,7 @@
     font-size: 2.5rem;
     padding-left: 10px;
     padding-top: 10px;
-    margin-left: 45% ;
+
 }
 .row_posters{
     display: flex;
@@ -19,6 +19,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     scroll-behavior: smooth;
+    cursor: pointer;
 }
 .row_poster{
     height: 100px;
@@ -32,3 +33,16 @@
 .rowPoster_large{
     height: 250px!important;
 }
+
+
+::-webkit-scrollbar{
+    height: 5px;
+    width: 3px;
+  background-color: black;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background:  linear-gradient(0deg, rgb(255, 232, 232) 0%, rgba(7, 0, 211, 1) 100%);
+    border-radius: 10px;
+  }
+  

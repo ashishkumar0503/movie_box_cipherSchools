@@ -8,7 +8,7 @@ import Row from "../../components/Row/Row";
 
 function HomePage() {
   return (
-    <div>
+    <div className="HomePage_content">
       <Navbar showSignInButton={false} logOut={true} />
       <Banner />
       <Row

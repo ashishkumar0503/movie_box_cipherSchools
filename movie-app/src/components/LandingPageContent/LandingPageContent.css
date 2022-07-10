@@ -1,104 +1,3 @@
-/* 
-.landingpagecontent_container{
-    height: 100vh;
-    position: relative;
-    background: url(https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg) no-repeat ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: -1;
-}
-
-
-.landingpagecontent_container:before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 300px;
-    z-index: 1;
-    background: linear-gradient(to bottom,#000,transparent);
-
-}
-
-.landingpagecontent_container:after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 250px;
-    z-index: 1;
-    background: linear-gradient(to top,#000,transparent);
-
-}
-
-
-
-.landingpagecontent_title{
-    font-size: 35px;
-    font-weight: 1000;
-    color: white;
-}
-
-.landingpagecontent_subtitle{
-    font-size: 28px;
-    color: white;
-    margin: 10px 0;
-}
-
-.landingpagecontent_description{
-    color: white;
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-.landingpagecontent_input{
-    color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 450px;
-    margin: 8px 0;
-
-}
-
-.landingpagecontent_input > input{
-    font-size: 16px;
-    border: 1px solid #8c8c8c;
-    outline: none;
-    border-radius: 4px;
-    height: 60px;
-    width: 300px;
-    margin-right: 1px;
-    align-items: center;
-    letter-spacing: 1px;
-    align-items: center;
-    padding: 10px;
-}
-
-.landingpagecontent_button{
-    height: 60px;
-    width: 130px;
-    padding: 0 15px;
-    background-color: red;
-    border-radius: 4px;
-    color: white;
-    font-weight: bolder;
-    font-size: 14px;
-    border: none;
-    cursor: pointer;
-
-}
-
-
-
-.landingpagecontent_button :hover{
-    background-color: rgb(225, 95, 95) !important;
-    
-} */
 
 
 .landingpagecontent_container{
@@ -120,6 +19,7 @@
 
 .landingpagecontent_title{
     font-size: 35px;
+    margin-left: 5vw;
     font-weight: 1000;
     color: white;
 }
@@ -127,12 +27,14 @@
 .landingpagecontent_subtitle{
     font-size: 28px;
     color: white;
-    margin: 10px 0;
+    /* margin: 10px 0; */
+    margin: 2vh 6vw;
 }
 
 .landingpagecontent_description{
     color: white;
     font-size: 22px;
+    margin-left: 6vw;
     margin-bottom: 10px;
 }
 
