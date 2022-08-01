@@ -10,7 +10,7 @@ root.render(
   <React.StrictMode>
     <Auth0Provider 
       domain='dev-nqeqh6mn.us.auth0.com'
-      clientId='s89Ux0vFi9KddOAlnl533T2U1rWako6Z'
+      clientId='jI5xLlz4ZgxsxvGWsMuDIAjcp5v3Rdzo'
       redirectUri={window.location.origin}>
       <App />
     </Auth0Provider>
